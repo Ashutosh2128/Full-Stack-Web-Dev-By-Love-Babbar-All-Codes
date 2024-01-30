@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Card</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100vw;
+            height: 100vh;
+            background-color: #8BC6EC;
+            background-image: linear-gradient(135deg, #8BC6EC 0%, #373c61 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            width: 950px;
+            height: 475px;
+            background-color: aliceblue;
+            display: flex;
+        }
+
+        .leftBox {
+            width: 50%;
+            height: 100%;
+            /* padding: 50px; */
+            background-color: rgb(69, 1, 44);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+        }
+
+        #hBox {
+            width: 75%;
+            height: 20%;
+        }
+
+        #pBox {
+            width: 75%;
+            height: 20%;
+            /* text-align: center; */
+        }
+
+        #thirdBox {
+            width: 75%;
+            height: 20%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1, p {
+            color: white;
+        }
+
+        #bigPara {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        #smallPara {
+            font-size: 0.9rem;
+        }
+
+        .rightBox {
+            width: 50%;
+            height: 100%;
+        }
+        .rightBox img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="leftBox">
+                <div id="hBox">
+                    <h1>Get insights that help your business grow</h1>
+                </div>
+
+                <div id="pBox">
+                    <p>Lorem ipsum dolor sit amet consect adipis elit. Officia nihil itaque adipisci quod a, aliq ipsam 
+                        reprehenderit. Officia, id, dolor fugit volup quam, cum nisi nam ad cumque aut!sum dolar</p>
+                </div>
+
+                <div id="thirdBox">
+                    <div id="firstPara">
+                        <p id="bigPara">10K+</p>
+                        <p id="smallPara">Comments</p>
+                    </div>
+
+                    <div id="secondPara">
+                        <p id="bigPara">214</p>
+                        <p id="smallPara">Paid Users</p>
+                    </div>
+
+                    <div id="thirdPara">
+                        <p id="bigPara">12M+</p>
+                        <p id="smallPara">Views</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightBox">
+                <img
+                    src="Images/icon.jpg"
+                />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
